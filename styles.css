@@ -1,10 +1,8 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     font-family:Roboto,sans-serif;
     
 }
+
 
 header{
     overflow: hidden;
@@ -14,9 +12,8 @@ header{
     height: 90px;
     position:relative;
 }
-h2{
-    margin-left: 35px;
-}
+
+
 
 nav{
     position: absolute;
@@ -204,20 +201,14 @@ img{
     font-size: 20px;
     
 }
+
 .cart a {
     color:#fff;
     cursor: pointer;
     text-decoration: none;
 }
 
-/* .container{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    margin-top:50px;
-    padding-bottom: 100px;
-} */
+ 
 .add-cart{
     position: absolute;
     width:200px;
@@ -242,8 +233,9 @@ img{
 }
 .item-count{
     top:7px;
-    right:20px;
-    position: relative;
+    right:12px;
+    position: absolute;
+    color: #000;
 }
 
 .separation:hover .cart1,
